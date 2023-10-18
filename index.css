@@ -1,0 +1,128 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    height: 100px;
+    background-color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.main {
+    min-height: 500px;
+    background-image: url("https://webstatic.mihoyo.com/ys/event/tcgmatch/images/index_bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.subtitle {
+    color: white;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.form {
+    width: 600px;
+    height: 400px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form h3 {
+    color: #333333;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+.form p {
+    color:#333333; 
+    font-size: 18px; 
+    margin-top: 10px; 
+}
+
+.form input[type="radio"] {
+   margin-right :10px; 
+   margin-left :20px; 
+   transform :scale(1.5); 
+   cursor :pointer; 
+}
+
+.form input[type="submit"] {
+   width :200px; 
+   height :40px; 
+   border :none; 
+   border-radius :10px; 
+   background-color :#FFC107; 
+   color :white; 
+   font-size :20px; 
+   font-weight :bold; 
+   margin-top :30px; 
+   cursor :pointer; 
+}
+
+
+.footer {
+   height :100px; 
+   background-color :#333333; 
+   display :flex; 
+   align-items :center; 
+   justify-content :center; 
+}
+
+.footer p {
+   color :white; 
+   font-size :16px; 
+}
